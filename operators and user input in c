@@ -1,0 +1,62 @@
+//operators in c
+
+//arithmatic operators
+
+#include <stdio.h>
+ 
+int main()
+{
+    int a = 2;
+    int b = 3;
+    // using operators in c
+    printf("a + b = %d\n", a + b);
+    printf("a - b = %d\n", a - b);
+    printf("a * b = %d\n", a * b);
+    printf("a / b = %d\n", a / b);
+    printf("a % b = %d\n", a % b);
+    return 0;
+}
+
+//logical operators
+
+#include <stdio.h>
+ 
+int main()
+{
+    int a = 1;
+    int b = 0;
+    printf("a or b = %d\n", a || b);
+    printf("a and b = %d\n", a && b);
+    printf("a not b = %d\n", a ! b);
+}
+
+//bitwise operators
+
+#include <stdio.h>
+ 
+int main()
+{
+    int a = 2; //10
+    int b = 3; //11
+    printf("a xor b = %d\n", a ^ b);
+    printf("a and b = %d\n", a & b);
+    printf("a or b = %d\n", a | b);
+}
+
+//user input
+
+#include<stdio.h>
+
+int main()
+{
+    int marks;
+    char name;
+    printf("Enter student's name: ");
+    scanf("%s", name);
+    printf("Enter marks in Maths: ");
+    scanf("%d", &marks);
+ 
+    printf("Hello %s! You have scored %d in Maths!", name, marks);
+    return 0;
+}
+
