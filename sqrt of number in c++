@@ -1,0 +1,13 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+    double x,sqrt_x;
+    cout<<"enter the number: "<<endl;
+    cin>>x;
+    sqrt_x = sqrt(x);
+    
+    cout<<"sqrt of x is: "<<sqrt_x;
+}
